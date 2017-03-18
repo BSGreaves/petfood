@@ -2,7 +2,6 @@ const outputDiv = document.getElementById("outputDiv");
 
 function printToDOM (){
 	let data = JSON.parse(this.responseText);
-	console.log(data);
 	let ops = ""; //outputstring
 	let dogBrands = data.dog_brands;
 	let catBrands = data.cat_brands;
