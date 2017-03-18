@@ -37,16 +37,6 @@ function printToDOM (){
 		}
 		ops += `</div></div>`
 	}
-
-	// ops += `
-	// 	<div class="col-sm-6 col-md-4">
-	// 		<div class="caption">
-	// 			<h2>${dogs}</h2>
-	// 			<h3>Thumbnail label</h3>
-
-	// 			<p>Test</p>
-	// 		</div>
-	// 	</div>`
 	outputDiv.innerHTML = ops;
 }
 
