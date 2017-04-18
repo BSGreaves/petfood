@@ -1,0 +1,10 @@
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	background-color: lightgrey;
+}
+
+.food {
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+	margin: 5px;
+}
